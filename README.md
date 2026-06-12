@@ -366,3 +366,22 @@ Look for the text `db`:
 | C05 | Consumer executed successfully!
 | C05 | ========================
 ```
+
+1. Phase 4. Make a Technical Modification
+
+## My Modification
+
+I created a custom consumer file named `kafka_consumer_sabri.py`.
+
+### What I Changed
+
+Added a new summary line called **Highest Order Total** to display the largest order processed during
+execution.
+
+### Why I Made This Change
+
+To improve visibility of sales performance and make the final summary more informative.
+
+### What I Observed
+
+The consumer executed successfully and displayed the highest order total in the final summary statistics.
