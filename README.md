@@ -385,3 +385,63 @@ To improve visibility of sales performance and make the final summary more infor
 ### What I Observed
 
 The consumer executed successfully and displayed the highest order total in the final summary statistics.
+The enhanced consumer successfully tracked and reported the highest order total processed during execution.
+
+## Phase 5 – Apply the Skills
+
+### Sales Analytics Dashboard
+
+For Phase 5, I applied the storage and analytics techniques from this project to a new business
+analytics problem.
+
+The original project focused on consuming streaming sales data and storing the results in CSV and
+DuckDB files. To extend the project,
+ I created a new analytics script named `sales_analytics.py` that reads the stored sales data
+  and generates business insights and visual reports.
+
+### What I Added
+
+- Created a new analytics script: `sales_analytics.py`
+- Read processed sales records from `consumed_sales.csv`
+- Calculated key business metrics
+- Generated visual reports using Matplotlib
+- Exported a summary report to CSV
+
+### Analytics Produced
+
+The analytics script calculates:
+
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Highest Order Total
+
+The script also generates visualizations for:
+
+- Revenue by Product
+- Revenue by Region
+- Cumulative Revenue Over Time
+
+### Output Files
+
+Generated files:
+
+- `sales_summary.csv`
+- `revenue_by_product.png`
+- `revenue_by_region.png`
+- `orders_over_time.png`
+
+### Results
+
+Using 50 consumed sales records, the analytics script produced:
+
+- Total Revenue: $3835.10
+- Total Orders: 50
+- Average Order Value: $76.70
+- Highest Order Total: $323.95
+
+### What I Learned
+
+This extension demonstrates how streaming data can be stored, analyzed, and transformed into useful
+business intelligence. It shows the complete workflow from data production
+and consumption to storage, reporting, and visualization.
